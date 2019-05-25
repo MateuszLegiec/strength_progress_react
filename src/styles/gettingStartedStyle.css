@@ -1,0 +1,173 @@
+#home{
+    margin-top: 50px;
+    background: url("../images/background.jpg") no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    text-align: left;
+}
+#start{
+    padding: 5% 5% 35% 5%;
+}
+#registration{
+    padding: 3% 0 4% 3%;
+}
+#login{
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-bottom: 20%;
+}
+#login input[type=button]{
+    background: transparent;
+}
+#home h1{
+    font-size: 700%;
+    font-weight: 800;
+    color: #c2af3d;
+}
+#home h4 {
+    font-size: 300%;
+    padding-bottom: 1%;
+    font-weight: 300;
+}
+#home .btn{
+    margin: 1px 5px;
+    width: 500px;
+}
+#home input{
+    width: 500px;
+    height: 60px;
+    border: 3px solid rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    border-radius: 10px;
+    color: grey;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 600;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 0!important;
+}
+#home label{
+    color: #eeeeee;
+    padding-top: 1%;
+}
+#home input:focus{
+    border-color: white;
+    color: white;
+}
+#login input[type=submit]{
+    margin-top: 30px!important;
+}
+#home input[type=submit]:hover{
+    border-color: #c2af3d !important;
+    color: white !important;
+    transition-duration: 0.4s;
+    background-color: #c2af3d !important;
+}
+#home input[type=button]:hover{
+    color: black;
+    transition-duration: 0.3s;
+    background-color: white;
+}
+#registration input[type="radio"] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+#registration input[type="radio"]:checked + label {
+    background: #508050;
+}
+.radioGroup label{
+    border: 3px solid rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    text-align: center;
+    width: 167px;
+    padding: 10px 0 !important;
+    cursor: pointer;
+}
+#login form a{
+    color: #595959;
+    margin-top: 0;
+}
+#about{
+    padding: 8%;
+}
+#about .infoCol{
+    margin-top: 50px;
+    background-color: #fff9fb;
+    padding: 30px 20px;
+    font-size: 24px;
+}
+#about img{
+    width: 75%;
+}
+#about h1{
+    font-size: 600%;
+    font-weight: 600;
+}
+#fixed{
+    background: url('../images/fixed.jpg') no-repeat fixed center;
+    display: table;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+#logoBar{
+    font-size: 130px;
+}
+#logoBar a:link{
+    color: #2b2b2b;
+    padding: 0 70px;
+}
+#logoBar a:hover, #logoBar a:active{
+    color: #6d6d6d;
+    background-color: #373737;
+}
+#findUs h1{
+    font-weight: 700;
+    font-size: 80px;
+    padding: 3%;
+}
+#team{
+    padding: 20px 0 140px 0;
+}
+.avatar{
+    background-color: #fff9fb;
+    border-radius: 20px;
+}
+#findUs figcaption{
+    font-size: 30px;
+    font-weight: 600;
+}
+.avatar:hover,
+.infoCol:hover{
+    background-color: #f7f6e6 !important;
+    transition-duration: 0.4s;
+}
+#forgotPasswordButton{
+    padding: 0;
+    margin: 0;
+    max-width: 200px;
+}
+.forgotPasswordModal h1{
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+    width: 95%;
+    padding-bottom: 10px;
+}
+.forgotPasswordModal h4{
+    padding: 20px 0;
+}
+.forgotPasswordModal input[type = submit]{
+    margin: 2px 0 10px 20px;
+    width: 100px;
+}
+#registrationDateOfBirth{
+    padding-left: 184px;
+    color: #4c4c4c !important;
+}
+#registrationDateOfBirth:after{
+    color: grey !important;
+}

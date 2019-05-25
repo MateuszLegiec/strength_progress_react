@@ -1,0 +1,165 @@
+body{
+    background: #ebebeb;
+}
+main{
+    margin-top: 150px;
+    text-align: center;
+    padding-bottom: 5%;
+    min-height: 1200px;
+}
+#userInfo{
+    padding: 0 3% 0 5%;
+    max-height: 400px;
+}
+#userInfo h4{
+    font-weight: 700;
+    font-size:18px;
+    text-align: left;
+    color: #262626;
+    vertical-align: middle;
+    padding: 1%;
+}
+.userData{
+    font-size: 23px;
+    color: #b8a53d;
+}
+#Trainings{
+    text-align: left;
+    font-weight: 600;
+    font-size: 10px;
+    fill: #968080;
+    max-width: 1290px;
+}
+#Trainings select{
+    width: 200px;
+    padding-top: 40px;
+}
+.react-calendar-heatmap{
+    max-height: 200px;
+    width: 100%;
+}
+.color-empty{
+    fill: #e0e0e0;
+}
+.color-scale-undefined{
+    fill: #3fac3f;
+}
+.color-empty:hover,
+.color-scale-undefined:hover{
+    filter: opacity(40%);
+    cursor: pointer;
+}
+.set{
+    max-width: 100px;
+    margin: 1%;
+}
+#account input{
+    margin: 1% 0;
+    width: 300px;
+    font-weight: 600;
+}
+#account label{
+    font-weight: 600;
+}
+#account h1{
+    margin: 40px 150px 20px 0;
+    padding-bottom: 5px;
+    border-bottom: solid 1px grey;
+}
+.exerciseSet{
+    margin: 10px 0 10px 20px;
+    max-width: 80px;
+}
+.exerciseButton{
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 30px;
+    width: 72px !important;
+    border: 2px solid #9c9c9c;
+
+}
+.columnName{
+    padding: 5px;
+}
+#addSetButton{
+    width: 180px!important;
+    margin-top: 7px;
+    margin-left: 20px;
+    font-size: 10px;
+    border: 1px solid #adadad;
+
+}
+#xButton{
+    margin-left: 207px;
+}
+#training{
+    padding-top: 50px;
+    width: 100%;
+}
+#training h1{
+    font-weight: 700;
+    border-bottom: #6d6d6d 2px solid;
+}
+#training label{
+    font-size: 20px;
+    padding-top: 10px;
+}
+#exerciseContainer{
+    margin: 20px 0 20px 40px;
+    padding: 10px 10px 25px 20px;
+    border-radius: 30px;
+    background: #f9f9f9;
+}
+#exerciseContainer #newExerciseCheckbox{
+    margin: 0 15px 10px 25px;
+    font-size: 20px;
+    padding: 0;
+    width: 180px;
+}
+#exerciseCheckbox{
+    width: 500px;
+}
+#deleteSetButton{
+    margin-bottom: 15px;
+}
+#nextExerciseButton{
+    background: transparent;
+    border-radius: 30px;
+    margin: 20px 0 20px 40px;
+    width: 270px;
+    border: 2px dashed grey;
+    font-weight: 600;
+}
+#addSetButton:hover,
+#nextExerciseButton:hover{
+    background: #f8f8f8;
+    border-color: black;
+}
+#saveTrainingButton{
+    border-radius: 30px;
+    font-weight: 600;
+    width: 500px !important;
+    height: 45px;
+    margin: 35px 0;
+}
+#deleteTrainingButton{
+    border-radius: 30px;
+    font-weight: 600;
+    width: 400px !important;
+    height: 45px;
+    margin: 35px 0;
+}
+#mainSection{
+    padding: 40px;
+}
+.chartHeader{
+    font-weight: 600;
+    border-bottom: #6d6d6d 1px solid;
+    margin: 30px 0;
+}
+#lineChart{
+    max-width: 1290px;
+}
+.trainingErrors{
+    font-size: 18px;
+}
