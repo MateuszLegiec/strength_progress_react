@@ -4,7 +4,7 @@ Front-end of StrengthProgress - application used to collect, monitor, and visual
 
 [Link](https://github.com/MateuszLegiec/strength_progress_kotlin) to backend repository
 
-##Getting started
+## Getting started
 
    This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
    
@@ -14,7 +14,7 @@ Front-end of StrengthProgress - application used to collect, monitor, and visual
    
    - npm
    
-###Installation
+### Installation
    
    - Clone repository using Git `git clone https://github.com/MateuszLegiec/strength_progress_react.git`
    
@@ -26,11 +26,11 @@ Front-end of StrengthProgress - application used to collect, monitor, and visual
 
    - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-####Author
+#### Author
     
   - Mateusz Legieć [MateuszLegiec](https://github.com/MateuszLegiec)
    
-####Feature
+#### Feature
 
   - Making requests to the backend API
   
