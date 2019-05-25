@@ -1,6 +1,6 @@
 # Strength Progress React
 
-Frontend of StrengthProgress - application used to collect, monitor, and visualize data from user training sessions.
+Frontend side of StrengthProgress - application used to collect, monitor, and visualize data from user training sessions.
 
 [Link](https://github.com/MateuszLegiec/strength_progress_kotlin) to backend repository
 
